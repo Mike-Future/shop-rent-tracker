@@ -19,19 +19,27 @@
             <li><a href="#">Rent Overview</a></li>
             <li><a href="#">Payments</a></li>
             <li><a href="#">Shop Management</a></li>
+            <li><a href="#">Settings</a></li>
             <li><a href="#">Logout</a></li>
         </ul>
     </div>
 
     <!-- Main Content -->
     <div class="main-content">
-        <header>
-            <div class="header-info">
-                <span>Welcome, Admin</span>
-                <div class="profile">
-                    <img src="images/profile1.png" alt="Profile" class="profile-img">
-                    <span>Admin</span>
+        <!-- Header -->
+        <header class="top-bar">
+            <div class="header-left">
+                <h2>Welcome, Admin</h2>
+            </div>
+            <div class="header-right">
+                <div class="profile-section">
+                    <img src="images/profile1.png" alt="Admin Profile" class="profile-pic">
                 </div>
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider"></span>
+                </label>
+                <span>Dark Mode</span>
             </div>
         </header>
 
