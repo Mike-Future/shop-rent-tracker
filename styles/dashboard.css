@@ -198,46 +198,55 @@ header.top-bar .header-right .switch input:checked + .slider:before {
 
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: #1e1e2f;
+    background-color: #21213f;
     color: #fff;
 }
 
 body.dark-mode header.top-bar {
-    background-color: #29293d;
+    background-color: #22223e;
     color: #fff;
+}
 
+body.dark-mode header.top-bar h2 {
+    color: #fff;
+}
+
+body.dark-mode header.top-bar span {
+    color: #fff;
 }
 
 body.dark-mode .sidebar {
-    background-color: #29293d;
+    background-color: #2f2f59;
+}
+
+body.dark-mode .main-content {
+    background-color: #1e1e2f;
 }
 
 body.dark-mode .stats-overview {
-    background-color: #29293d;
+    background-color: #1e1e2f;
     color: #fff;
 }
 
 body.dark-mode .stats-overview h2 {
-    background-color: #29293d;
+    background-color: #1e1e2f;
     color: #fff;
 }
 
 body.dark-mode .stat-card {
-    background-color: #29293d;
+    background-color: #2f2f59;
     color: #fff;
 }
 
 body.dark-mode .stat-card h3 {
-    background-color: #29293d;
     color: #fff;
 }
 
 body.dark-mode .stat-card p {
-    background-color: #29293d;
     color: #fff;
 }
 
 body.dark-mode .recent-activity {
-    background-color: #29293d;
+    background-color: #2f2f59;
     color: #fff;
 }
