@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #F4F7FA;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #1D2D4B; /* Air Force Blue */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.sidebar-header .logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.sidebar-header h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    margin: 15px 0;
+}
+
+.sidebar-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-menu a:hover {
+    background-color: #182235; /* Darker Air Force Blue */
+    border-radius: 5px;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-info {
+    font-size: 18px;
+    color: #2D3B47;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile span {
+    font-weight: bold;
+}
+
+/* Stats Overview */
+.stats-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background-color: #E9F0F5;
+    padding: 20px;
+    width: 22%;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+    font-size: 18px;
+    color: #2D3B47;
+}
+
+.stat-card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1D2D4B;
+}
+
+/* Recent Activity */
+.recent-activity {
+    background-color: #E9F0F5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.recent-activity h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recent-activity ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recent-activity li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
